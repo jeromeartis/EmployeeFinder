@@ -1,16 +1,16 @@
 const employeesArray = [{
         "name": "sam",
         "scores": [
-            "2 (Agree)",
-            "2 (Agree)",
-            "3 (Neutral)",
-            "3 (Neutral)",
-            "2 (Agree)",
-            "2 (Agree)",
-            "4 (Disagree)",
-            "4 (Disagree)",
-            "3 (Neutral)",
-            "2 (Agree)"
+            "2",
+            "2",
+            "3",
+            "3",
+            "2",
+            "2",
+            "4",
+            "4",
+            "3",
+            "2"
         ]
     }];
 

@@ -8,6 +8,10 @@ $(function () {
   const renderEmployees = function (event) {
     event.preventDefault();
 
+
+
+
+
     // Here we grab the form elements
     const newAnswers = {
       name: $('#fullName').val().trim(),
@@ -41,17 +45,27 @@ $(function () {
     })
   }
 
+  const render = function (dataList, parent){
+  for (let i = 0; i < dataList.length; i++){
+    console.log(dataList[i].scores);
+
+
+  }
+  }
 
   const getEmployees = function(){
     $.ajax({
       method: 'GET',
       url: 'api/employees'
-    }).then(function(employeesArray){
-      for(let i = 0; i < employeesArray.Length; i++){
-        console.log(i)
-      }
-    });
-  }
+    }).then(function(data){
+      render(data,$('.employees'))
+    })
+    }
+
+
+
+
+
 
 
   $('#submit').on('click',getEmployees);
