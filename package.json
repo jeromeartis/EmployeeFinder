@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jeromeartis/EmployeeFinder/issues"
   },
-  "homepage": "https://github.com/jeromeartis/EmployeeFinder#readme"
+  "homepage": "https://github.com/jeromeartis/EmployeeFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
 }

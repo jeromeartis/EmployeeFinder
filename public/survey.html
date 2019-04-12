@@ -5,6 +5,9 @@
     <title>EmployeeFinder</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="./js/survey.js" ></script>
+
   </head>
   <body>
     <div class="container">
@@ -14,96 +17,92 @@
       <hr>
       <div class="form-group">
         <h2>About You</h2>
-        <label for="exampleFormControlInput1">Name(Required)</label>
-        <input type="name class="form-control" id="fullName" placeholder="">
+        <label for="exampleFormControlInput1">Name(Required<)/label>
+        <input type="name" class="form-control" id ="fullName">
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Link to Photo Image (Required)</label>
-        <input type="text" class="form-control" id="uploadImage" placeholder="">
-        <hr>
-      </div>
+
       <div class="form-group">
         <h2>Question 1</h2>
-        <label for="exampleFormControlSelect1">Your mind is always buzzing with unexplored ideas and plans.</label>
+        <label for="exampleFormControlSelect1">Michael Jordan is the Greatest of All Times.</label>
         <select class="form-control" id="questionOne">
           <option>Select an Option</option>
-          <option>1 (Strongly Agree)</option>
-          <option>2 (Agree)</option>
-          <option>3 (Neutral)</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
           <option>4 (Disagree)</option>
-          <option>5 (Strongly Disagree)</option>
+          <option>5</option>
         </select>
       </div>
       <div class="form-group">
         <h2>Question 2</h2>
-        <label for="exampleFormControlSelect1">Generally speaking, you rely more on your experience than your imagination.</label>
+        <label for="exampleFormControlSelect1">Carmelo Anthony is the most underated NBA player to play the game of basketball.</label>
         <select class="form-control" id="QuestionTwo">
           <option>Select an Option</option>
-          <option>1 (Strongly Agree)</option>
-          <option>2 (Agree)</option>
-          <option>3 (Neutral)</option>
-          <option>4 (Disagree)</option>
-          <option>5 (Strongly Disagree)</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
         </select>
       </div>
       <div class="form-group">
         <h2>Question 3</h2>
-        <label for="exampleFormControlSelect1">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+        <label for="exampleFormControlSelect1">Kobe Byrant is better all around player than Lebron James.</label>
         <select class="form-control" id="QuestionThree">
           <option>Select an Option</option>
-          <option>1 (Strongly Agree)</option>
-          <option>2 (Agree)</option>
-          <option>3 (Neutral)</option>
-          <option>4 (Disagree)</option>
-          <option>5 (Strongly Disagree)</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
         </select>
       </div>
       <div class="form-group">
         <h2>Question 4</h2>
-        <label for="exampleFormControlSelect1">You rarely do something just out of sheer curiosity.</label>
+        <label for="exampleFormControlSelect1">Lebron James is better all around player than Kobe Bryant.</label>
         <select class="form-control" id="QuestionFour">
           <option>Select an Option</option>
-          <option>1 (Strongly Agree)</option>
-          <option>2 (Agree)</option>
-          <option>3 (Neutral)</option>
-          <option>4 (Disagree)</option>
-          <option>5 (Strongly Disagree)</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
         </select>
       </div>
       <div class="form-group">
         <h2>Question 5</h2>
-        <label for="exampleFormControlSelect1">People can rarely upset you.</label>
+        <label for="exampleFormControlSelect1">Dewayne Wayne had a more successful career than Paul Pierce.</label>
         <select class="form-control" id="QuestionFive">
           <option>Select an Option</option>
-          <option>1 (Strongly Agree)</option>
-          <option>2 (Agree)</option>
-          <option>3 (Neutral)</option>
-          <option>4 (Disagree)</option>
-          <option>5 (Strongly Disagree)</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
         </select>
       </div>
       <div class="form-group">
         <h2>Question 6</h2>
-        <label for="exampleFormControlSelect1">It is often difficult for you to relate to other people’s feelings.</label>
+        <label for="exampleFormControlSelect1">Ray Allen is more effective three point shooter than Stephen Curry.</label>
         <select class="form-control" id="QuestionSix">
           <option>Select an Option</option>
-          <option>1 (Strongly Agree)</option>
-          <option>2 (Agree)</option>
-          <option>3 (Neutral)</option>
-          <option>4 (Disagree)</option>
-          <option>5 (Strongly Disagree)</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
         </select>
       </div>
       <div class="form-group">
         <h2>Question 7</h2>
-        <label for="exampleFormControlSelect1">In a discussion, truth should be more important than people’s sensitivities.</label>
+        <label for="exampleFormControlSelect1">Shaquille O'neal is the best Center that ever played in the NBA.</label>
         <select class="form-control" id="QuestionSeven">
           <option>Select an Option</option>
-          <option>1 (Strongly Agree)</option>
-          <option>2 (Agree)</option>
-          <option>3 (Neutral)</option>
-          <option>4 (Disagree)</option>
-          <option>5 (Strongly Disagree)</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
         </select>
       </div>
       <div class="form-group">
@@ -111,42 +110,44 @@
         <label for="exampleFormControlSelect1">You rarely get carried away by fantasies and ideas.</label>
         <select class="form-control" id="QuestionEight">
           <option>Select an Option</option>
-          <option>1 (Strongly Agree)</option>
-          <option>2 (Agree)</option>
-          <option>3 (Neutral)</option>
-          <option>4 (Disagree)</option>
-          <option>5 (Strongly Disagree)</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</optio</option>
         </select>
       </div>
       <div class="form-group">
         <h2>Question 9</h2>
-        <label for="exampleFormControlSelect1">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
+        <label for="exampleFormControlSelect1">Golden State Warriors could not be 1995 Chicago Bulls.</label>
         <select class="form-control" id="QuestionNine">
           <option>Select an Option</option>
-          <option>1 (Strongly Agree)</option>
-          <option>2 (Agree)</option>
-          <option>3 (Neutral)</option>
-          <option>4 (Disagree)</option>
-          <option>5 (Strongly Disagree)</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
         </select>
       </div>
       <div class="form-group">
         <h2>Question 10</h2>
-        <label for="exampleFormControlSelect1">You feel more energetic after spending time with a group of people.</label>
+        <label for="exampleFormControlSelect1">Lebron James is todays GOAT of the NBA.</label>
         <select class="form-control" id="QuestionTen">
           <option>Select an Option</option>
-          <option>1 (Strongly Agree)</option>
-          <option>2 (Agree)</option>
-          <option>3 (Neutral)</option>
-          <option>4 (Disagree)</option>
-          <option>5 (Strongly Disagree)</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
         </select>
       </div>
       <div class="submitButton">
-        <button type="button" class="fas fa-check-circle btn btn-primary btn-lg btn-block"> Submit</button>
+        <button type="button" id="submit"class="fas fa-check-circle btn btn-primary btn-lg btn-block"> Submit</button>
       </div>
     </form>
       </div>
     </div>
+    <p>
+    <a href="/api/employees">API Employee List</a>
+    </p>
   </body>
 </html>
